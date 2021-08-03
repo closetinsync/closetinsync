@@ -1,0 +1,116 @@
+html, body {
+	background: url('../img/bg.jpg')center center no-repeat;
+	height: 100%;
+	background-size:cover;
+}
+@media(max-width: 768px) {
+
+	#Logo img {
+		width: 50%;
+	}
+	#Counter .countdown {
+		font-size:1.4em | important ;
+	}
+	#Icons .fab {
+		margin: 10px 0 0 | important;
+		font-size: 2em ;
+	}
+}
+
+@media(min-width: 321px)
+	and (max-width 568px)
+{
+
+	#Logo img {
+		width: 50%;
+	}
+	
+}
+
+#Logo img {
+	margin: auto;
+	padding-top: 5px;
+}
+
+#Intro p {
+	color: white;
+	text-align: center;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1em;
+}
+
+#Counter .countdown {
+	text-align: center;
+	color: white;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 2em;
+	margin: -15px 0 0 ;
+}
+
+#Icons {
+	text-align: center;
+
+}
+
+
+
+#Signup {
+	text-align: center;
+}
+
+#Signup .form-inline {
+	display: block;
+}
+
+#Signup .btn {
+	background-color: rgba(161, 186, 226, 0.5);
+	color: white;
+}
+
+#Signup .btn:hover {
+	background-color:rgba(37, 165, 82, 1); 
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: aquamarine;
+  margin: 5px 5px ;
+  position: relative;
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+  bottom: 8px;
+}
+
+/* Twitter */
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+  bottom: 8px;
+}
+
+/* Instagram */
+.fa-instagram:hover {
+  background: #125688;
+  color: white;
+  bottom: 8px;
+}
