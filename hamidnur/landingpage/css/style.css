@@ -1,0 +1,104 @@
+html, body {
+  background:url('../img/closetbg.jpeg') center center no-repeat;
+  height: 100%;
+  background-size:cover;
+}
+
+@media(max-width:768px) {
+  #logo img {
+    width:50%;
+  }
+  #counter .counter {
+    font-size: 1.4em !important;
+  }
+  #icons .fab {
+    margin:10px 0 0 !important;
+    font-size:2em;
+  }
+}
+
+#logo p {
+  padding-top: 150px;
+  color: white;
+  font-size:3em;
+  font-family: 'Source Serif Pro', serif;
+
+}
+
+#intro p {
+  color: white;
+  text-align:center;
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size:1.2em;
+}
+
+#counter .countdown {
+  text-align:center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size:2em;
+}
+
+#icons {
+  text-align:center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 5px 10px ;
+  position: relative;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+  bottom: 8px;
+}
+
+/* Twitter */
+.fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+  bottom: 8px;
+}
+
+/* Instagram */
+.fa-instagram:hover {
+  background: #125688;
+  color: white;
+  bottom: 8px;
+}
+
+#signup {
+  text-align:center;
+}
+
+#signup .form-inline {
+  display: block;
+}
+
+#signup .btn {
+  background-color: rgba(161,186,226,0.5);
+  color: white;
+}
+
+#signup .btn:hover {
+  background-color: rgba(37,165,82,1);
+}
