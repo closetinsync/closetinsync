@@ -1,0 +1,98 @@
+html, body {
+background:url('../img/shutterstock_295846730-1280x720.jpg') center center no-repeat;
+height: 100%;
+background-size:cover;
+}
+
+@media(max-width:768px) {
+    #logo img {
+        width:50%
+    }
+    #counter .countdown {
+        font-size: 1.2em !important;
+    }
+    #icons .fab {
+        font-size: 1.5em !important;
+        margin: 10px 0 0 !important;
+    }
+    #intro p {
+        font-size: 1.2em !important;
+    }
+    #signup .md-3 {
+        font-size: 1em !important;
+        display: block;
+    }
+}
+
+@media(min-width:325px)
+    and (max-width:527px) {
+        #logo img {
+            width: 20%;
+        }
+}
+
+#logo img {
+    padding-top: 50px;
+}
+
+#intro p {
+    color: white;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3em;
+}
+
+#counter .countdown {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Shadows Into Light', cursive;
+    margin: -20px 0 0;
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons .fab {
+    margin: 5px 15px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    bottom: 0;
+}
+
+#icons .twitter:hover {
+    bottom: 5px;
+    color: cyan;
+}
+
+#icons .facebook:hover {
+    bottom: 5px;
+    color: blueviolet;
+}
+
+#icons .google:hover {
+    bottom: 5px;
+    color: red;
+}
+
+#icons .instagram:hover {
+    bottom: 5px;
+    color: darkcyan;
+}
+
+#signup {
+    text-align: center;
+}
+
+#signup .mb-3 {
+    text-align: center;
+    margin: -5px 0 0;
+    color: white;
+    display: block;
+}
+
+#signup .form-label {
+    display: block;
+}
